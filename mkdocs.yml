@@ -1,0 +1,89 @@
+site_name: 迫真网站
+
+theme:
+  name: material
+
+  #主题切换
+  palette:
+
+    #下面这一个是自适应，但我觉得没用
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: custom
+
+    # 日间模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # 夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  
+  #logo,但是要改成更小一点的正方形或圆
+  logo: assets/logo_white.png
+
+  features:
+    #即时加载，不知道干什么用的
+    - navigation.instant
+    #即时预取，也不知道
+    - navigation.instant
+    - navigation.instant.prefetch
+    #进度指示器
+    - navigation.instant
+    - navigation.instant.progress
+    #锚点跟随
+    - navigation.tracking
+    #导航选项卡
+    - navigation.tabs
+    #如果取消下面这行的注释，导航会变成粘性的
+    #- navigation.tabs.sticky
+    #启用部分后，顶级部分将在上方视区的侧边栏中呈现为组，但在移动设备上保持原样。将以下行添加到
+    - navigation.sections
+    #激活导航路径后，痕迹导航将呈现在每个页面的标题上方，这可能会使用户在屏幕较小的设备上访问您的文档时更容易找到方向。将以下行添加到
+    - navigation.path
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    #页脚，上一页下一页那个东西
+    - navigation.footer
+
+#导航
+nav:
+  - 首页:
+    - 前言: "homepage/index.md"
+    - 制作组留言: "homepage/about_us.md"
+  - 紫金港速通: 
+    - 紫金港速通: "freshman/freshman.md"
+  - 课程:
+    - 课程: "courses/courses.md"
+  - 本科生轮转: 
+    - 本科生轮转: "rotation/rotation.md"
+  - 飞跃专题:
+    - 飞跃手册:
+      - 飞跃: "feiyue/feiyue.md"
+  - 后记:
+    - 后记: "postscript/postscript.md"
+
+#搜索功能
+plugins:
+  - search
+
+#这个地方是页面最下方放友情链接的，需要一个图标icon和一个链接link
+extra:
+  social:
+    - icon: material/web-check
+      link: https://bms.zju.edu.cn/
+
+#这个是版权横幅
+copyright: Copyright &copy; 2025-present 基础医学飞跃手册编委会
