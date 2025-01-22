@@ -1,4 +1,4 @@
-name: BMS-ZJU 
+name: site-test
 on:
   push:
     branches:
