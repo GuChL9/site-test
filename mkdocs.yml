@@ -61,7 +61,7 @@ theme:
 #导航
 nav:
   - 首页:
-    - 前言: "homepage/index.md"
+    - homepage/index.md
     - 制作组留言: "homepage/about_us.md"
   - 紫金港速通: 
     - 紫金港速通: "freshman/freshman.md"
