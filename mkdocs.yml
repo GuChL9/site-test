@@ -1,6 +1,8 @@
-site_name: 迫真网站
+site_name: 网站
 site_url: https://GuChL9/github.io/site-test/
 site_description: 基础医学网站
+repo_name: ZJU-BMS
+repo_url: https://github.com/GuChL9/site-test
 
 
 theme:
