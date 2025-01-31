@@ -3,12 +3,11 @@ site_url: https://GuChL9/github.io/site-test/
 site_description: 基础医学网站
 repo_name: ZJU-BMS
 repo_url: https://github.com/GuChL9/site-test
-
+edit_uri: tree/master/docs
 
 theme:
   name: material
   language: 'zh'
-  #logo,但是要改成更小一点的正方形或圆
   logo: assets/logo_white.png
 
   #主题切换
@@ -39,30 +38,28 @@ theme:
 
 
   features:
-    #即时加载，不知道干什么用的
+    - content.code.annotate
+    - content.action.edit
     - navigation.instant
-    #即时预取，也不知道
     - navigation.instant
     - navigation.instant.prefetch
-    #进度指示器
     - navigation.instant
     - navigation.instant.progress
-    #锚点跟随
     - navigation.tracking
-    #导航选项卡
     - navigation.tabs
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
     #如果取消下面这行的注释，导航会变成粘性的
     #- navigation.tabs.sticky
-    #启用部分后，顶级部分将在上方视区的侧边栏中呈现为组，但在移动设备上保持原样。将以下行添加到
-    - navigation.sections
+# 自动展开左侧列表
+#    - navigation.sections
     #激活导航路径后，痕迹导航将呈现在每个页面的标题上方，这可能会使用户在屏幕较小的设备上访问您的文档时更容易找到方向。将以下行添加到
     - navigation.path
 
     - search.suggest
     - search.highlight
     - search.share
-
-    #页脚，上一页下一页那个东西
     - navigation.footer
 
 #导航
@@ -72,55 +69,58 @@ nav:
     - 制作组留言: homepage/about_us.md
   - 紫金港速通: 
     - 紫金港速通: freshman/freshman.md
-  - 思政类: 
-    - sz/sz.md
-    - 思想道德与法治: sz/sxddyfz.md
-  - 军体类: 
-    - jt/jt.md
-    - 军事理论: jt/jsll.md
-  - 通识选修类: 
-    - tsxx/tsxx.md
-  - 通识必修类: 
-    - tsbx/tsbx.md
-  - 专业模块类:
+  - 通识类课程: 
+    - tongshi/index.md
+    - 军体类: 
+      - tongshi/jt/jt.md
+    - 思政类: 
+      - tongshi/sz/sz.md
+    - 通识选修类: 
+      - tongshi/tsxx/tsxx.md
+    - 通识必修类: 
+      - tongshi/tsbx/tsbx.md
+  - 专业类课程: 
+    - zhuanye/index.md
+#    - 专业模块类: 
+#      - zhuanye/zymk/index.md
     - 生物类课程:
-      - 医学生命基础: zymk/swl/yxsmjc.md
-      - 医学科学素养Ⅰ: zymk/swl/yxkxsy1.md
-      - 医学科学英语基础: zymk/swl/yxkxyyjc.md
-      - 基础医学科学研究技能Ⅰ: zymk/swl/jcyxkxyjjn1.md
-      - 细胞与生物分子Ⅰ: zymk/swl/xbyswfz1.md
-      - 细胞与生物分子Ⅱ: zymk/swl/xbyswfz2.md
-      - 遗传与发育Ⅰ: zymk/swl/ycyfy1.md
-      - 遗传与发育Ⅱ: zymk/swl/ycyfy2.md
+      - 医学生命基础: zhuanye/zymk/swl/yxsmjc.md
+      - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1.md
+      - 医学科学英语基础: zhuanye/zymk/swl/yxkxyyjc.md
+      - 基础医学科学研究技能Ⅰ: zhuanye/zymk/swl/jcyxkxyjjn1.md
+      - 细胞与生物分子Ⅰ: zhuanye/zymk/swl/xbyswfz1.md
+      - 细胞与生物分子Ⅱ: zhuanye/zymk/swl/xbyswfz2.md
+      - 遗传与发育Ⅰ: zhuanye/zymk/swl/ycyfy1.md
+      - 遗传与发育Ⅱ: zhuanye/zymk/swl/ycyfy2.md
     - 基础医学类课程: 
-      - 人体结构与功能学: zymk/jcyxl/rtjgygnx.md
-      - 感染与免疫学: zymk/jcyxl/grymyx.md
-      - 疾病基础: zymk/jcyxl/jbjc.md
-      - 基础药理学: zymk/jcyxl/jcylx.md
-      - 神经科学: zymk/jcyxl/sjkx.md
+      - 人体结构与功能学: zhuanye/zymk/jcyxl/rtjgygnx.md
+      - 感染与免疫学: zhuanye/zymk/jcyxl/grymyx.md
+      - 疾病基础: zhuanye/zymk/jcyxl/jbjc.md
+      - 基础药理学: zhuanye/zymk/jcyxl/jcylx.md
+      - 神经科学: zhuanye/zymk/jcyxl/sjkx.md
     - 公共卫生与预防医学类课程:
-      - 实验动物与伦理学: zymk/ggwsyyfyxl/sydwyllx.md
-      - 医学科学素养Ⅱ: zymk/ggwsyyfyxl/yxkxsy2.md
-      - 临床流行病与循证医学: zymk/ggwsyyfyxl/lclxbyxzyx.md
+      - 实验动物与伦理学: zhuanye/zymk/ggwsyyfyxl/sydwyllx.md
+      - 医学科学素养Ⅱ: zhuanye/zymk/ggwsyyfyxl/yxkxsy2.md
+      - 临床流行病与循证医学: zhuanye/zymk/ggwsyyfyxl/lclxbyxzyx.md
     - 临床医学类课程:
-      - 重要疾病的临床与研究Ⅰ: zymk/lcyx/zyjbdlcyyj1.md
-      - 重要疾病的临床与研究Ⅱ: zymk/lcyx/zyjbdlcyyj2.md
-      - 重要疾病的临床与研究Ⅲ: zymk/lcyx/zyjbdlcyyj3.md
+      - 重要疾病的临床与研究Ⅰ: zhuanye/zymk/lcyx/zyjbdlcyyj1.md
+      - 重要疾病的临床与研究Ⅱ: zhuanye/zymk/lcyx/zyjbdlcyyj2.md
+      - 重要疾病的临床与研究Ⅲ: zhuanye/zymk/lcyx/zyjbdlcyyj3.md
     - 交叉性课程:
-      - 医学生物物理学: zymk/jcx/yxswwlx.md
-      - 脑与脑机融合: zymk/jcx/nynjrh.md
-      - 医学大数据与应用: zymk/jcx/yxdsjyyy.md
-  - 专业选修类:
-    - 物理化学: zyxx/wlhx.md
-    - 新药研发: zyxx/xyyf.md
-    - 法理学: zyxx/flx.md
-    - 管理学: zyxx/glx.md
-    - 卫生学: zyxx/wsx.md
-  - 实践教学类: 
-    - sjjx/sjjx.md
-  - 个性修读类: 
-    - gxxd/gxxd.md
-
+      - 医学生物物理学: zhuanye/zymk/jcx/yxswwlx.md
+      - 脑与脑机融合: zhuanye/zymk/jcx/nynjrh.md
+      - 医学大数据与应用: zhuanye/zymk/jcx/yxdsjyyy.md
+    - 专业选修类: 
+      - zhuanye/zyxx/index.md
+      - 物理化学: zhuanye/zyxx/wlhx.md
+      - 新药研发: zhuanye/zyxx/xyyf.md
+      - 法理学: zhuanye/zyxx/flx.md
+      - 管理学: zhuanye/zyxx/glx.md
+      - 卫生学: zhuanye/zyxx/wsx.md
+    - 实践教学类: 
+      - zhuanye/sjjx/sjjx.md
+    - 个性修读类: 
+      - zhuanye/gxxd/gxxd.md
   - 本科生轮转: 
     - 本科生轮转: rotation/rotation.md
   - 飞跃专题:
@@ -141,3 +141,4 @@ extra:
 
 #这个是版权横幅
 copyright: Copyright &copy; 2024-2025 基础医学飞跃手册编委会
+
