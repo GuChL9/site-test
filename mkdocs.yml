@@ -15,11 +15,11 @@ theme:
 
     #下面这一个是自适应，但我觉得没用
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-      primary: custom
+    #- media: "(prefers-color-scheme)"
+    #  toggle:
+    #    icon: material/brightness-auto
+    #    name: Switch to light mode
+    #  primary: custom
 
     # 日间模式
     - media: "(prefers-color-scheme: light)"
