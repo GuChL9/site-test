@@ -46,21 +46,28 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
+# 顶部导航栏
     - navigation.tabs
     - navigation.tracking
+# 返回顶部按钮
     - navigation.top
+# 章节索引页面
     - navigation.indexes
-    #如果取消下面这行的注释，导航会变成粘性的
-    #- navigation.tabs.sticky
+# 静态导航栏
+#    - navigation.tabs.sticky
 # 自动展开左侧列表
 #    - navigation.sections
-    #激活导航路径后，痕迹导航将呈现在每个页面的标题上方，这可能会使用户在屏幕较小的设备上访问您的文档时更容易找到方向。将以下行添加到
+# 激活导航路径后，痕迹导航将呈现在每个页面的标题上方，这可能会使用户在屏幕较小的设备上访问您的文档时更容易找到方向。将以下行添加到
     - navigation.path
-
     - search.suggest
     - search.highlight
     - search.share
     - navigation.footer
+    - content.code.annotate    
+    - content.action.edit
+# 评论
+#  custom_dir: overrides
+
 
 #导航
 nav:
@@ -85,13 +92,13 @@ nav:
 #      - zhuanye/zymk/index.md
     - 生物类课程:
       - 医学生命基础: zhuanye/zymk/swl/yxsmjc.md
-      - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1.md
+      - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1/yxkxsy1.md
       - 医学科学英语基础: zhuanye/zymk/swl/yxkxyyjc.md
-      - 基础医学科学研究技能Ⅰ: zhuanye/zymk/swl/jcyxkxyjjn1.md
+      - 基础医学科学研究技能Ⅰ: zhuanye/zymk/swl/jcyxkxyjjn1/jcyxkxyjjn1.md
       - 细胞与生物分子Ⅰ: zhuanye/zymk/swl/xbyswfz1.md
-      - 细胞与生物分子Ⅱ: zhuanye/zymk/swl/xbyswfz2.md
+      - 细胞与生物分子Ⅱ: zhuanye/zymk/swl/xbyswfz2/xbyswfz2.md
       - 遗传与发育Ⅰ: zhuanye/zymk/swl/ycyfy1.md
-      - 遗传与发育Ⅱ: zhuanye/zymk/swl/ycyfy2.md
+      - 遗传与发育Ⅱ: zhuanye/zymk/swl/ycyfy2/ycyfy2.md
     - 基础医学类课程: 
       - 人体结构与功能学: zhuanye/zymk/jcyxl/rtjgygnx.md
       - 感染与免疫学: zhuanye/zymk/jcyxl/grymyx.md
@@ -112,7 +119,7 @@ nav:
       - 医学大数据与应用: zhuanye/zymk/jcx/yxdsjyyy.md
     - 专业选修类: 
       - zhuanye/zyxx/index.md
-      - 物理化学: zhuanye/zyxx/wlhx.md
+      - 物理化学: zhuanye/zyxx/wlhx/wlhx.md
       - 新药研发: zhuanye/zyxx/xyyf.md
       - 法理学: zhuanye/zyxx/flx.md
       - 管理学: zhuanye/zyxx/glx.md
@@ -123,6 +130,9 @@ nav:
       - zhuanye/gxxd/gxxd.md
   - 本科生轮转: 
     - 本科生轮转: rotation/rotation.md
+  - 求科强基政策收集 :
+    - zhengce/index.md
+    - 政策: zhengce/zhengce.md
   - 飞跃专题:
     - 飞跃手册:
       - 飞跃: feiyue/feiyue.md
@@ -142,3 +152,34 @@ extra:
 #这个是版权横幅
 copyright: Copyright &copy; 2024-2025 基础医学飞跃手册编委会
 
+markdown_extensions:
+#  - toc:
+#      permalink: true
+#      toc_depth: 4
+#  - meta
+#  - def_list
+#  - attr_list
+#  - md_in_html
+#  - sane_lists
+#  - admonition
+#  - pymdownx.keys
+#  - pymdownx.mark
+#  - pymdownx.tilde
+#  - pymdownx.critic
+#  - pymdownx.details
+#  - pymdownx.snippets
+#  - pymdownx.magiclink
+#  - pymdownx.superfences
+#  - pymdownx.inlinehilite
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
+# 选项卡功能
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
