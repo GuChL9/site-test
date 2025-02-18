@@ -15,23 +15,25 @@ theme:
 
     #下面这一个是自适应，但我觉得没用
     # Palette toggle for automatic mode
-    #- media: "(prefers-color-scheme)"
-    #  toggle:
-    #    icon: material/brightness-auto
-    #    name: Switch to light mode
-    #  primary: custom
-
-    # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: custom
+
+    # 日间模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - scheme: slate
+    # 夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Switch to system preference
   
 
 
@@ -64,7 +66,7 @@ theme:
     - content.code.annotate    
     - content.action.edit
 # 评论
-  custom_dir: overrides
+#  custom_dir: overrides
 
 
 #导航
@@ -89,7 +91,7 @@ nav:
 #    - 专业模块类: 
 #      - zhuanye/zymk/index.md
     - 生物类课程:
-      - 医学生命基础: zhuanye/zymk/swl/yxsmjc.md
+      - 医学生命基础: zhuanye/zymk/swl/yxsmjc/yxsmjc.md
       - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1/yxkxsy1.md
       - 医学科学英语基础: zhuanye/zymk/swl/yxkxyyjc.md
       - 基础医学科学研究技能Ⅰ: zhuanye/zymk/swl/jcyxkxyjjn1/jcyxkxyjjn1.md
