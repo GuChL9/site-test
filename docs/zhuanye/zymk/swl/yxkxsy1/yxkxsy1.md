@@ -1,5 +1,4 @@
 ---
-title: 留言板
 comments: true  # 启用评论
 ---
 
