@@ -35,4 +35,4 @@ comments: true
 
 ## 附加资料
 
-- [Word版实验报告模板](实验报告模板.doc)
+- [Word版实验报告模板](实验报告模版.docx)
