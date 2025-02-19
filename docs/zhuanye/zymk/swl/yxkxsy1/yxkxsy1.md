@@ -1,5 +1,5 @@
 ---
-comments: true  # 启用评论
+comments: true
 ---
 
 # 医学科学素养Ⅰ
