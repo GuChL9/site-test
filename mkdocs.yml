@@ -150,6 +150,11 @@ nav:
       - 临床实习: zhuanye/sjjx/lcsx/index.md
     - 个性修读类: 
       - zhuanye/gxxd/index.md
+      - C程序设计基础及实验: zhuanye/gxxd/c4/index.md
+      - 面向对象程序设计: zhuanye/gxxd/oop/index.md
+      - 数据结构基础: zhuanye/gxxd/fds/index.md
+      - 离散数学及其应用: zhuanye/gxxd/lssxjqyy/index.md
+      - 计算机系统Ⅰ: zhuanye/gxxd/cs1/index.md
   - 本科生轮转: 
     - 本科生轮转: rotation/rotation.md
   - 求科强基政策收集 :
