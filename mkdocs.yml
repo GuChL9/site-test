@@ -88,11 +88,12 @@ nav:
     - 通识必修类: 
       - tongshi/tsbx/index.md
       - 大物实验（丙）: tongshi/tsbx/dwsy(b)/dwsy(b).md
+      - 普通化学（H) : tongshi/tsbx/pthx(h)/index.md
   - 专业类课程: 
     - zhuanye/index.md
     - 专业模块类: 
       - zhuanye/zymk/index.md
-      - 生物类课程:
+      - 生物类:
         - 医学生命基础: zhuanye/zymk/swl/yxsmjc/yxsmjc.md
         - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1/yxkxsy1.md
         - 医学科学英语基础: zhuanye/zymk/swl/yxkxyyjc/yxkxyyjc.md
@@ -101,18 +102,18 @@ nav:
         - 细胞与生物分子Ⅱ: zhuanye/zymk/swl/xbyswfz2/xbyswfz2.md
         - 遗传与发育Ⅰ: zhuanye/zymk/swl/ycyfy1/ycyfy1.md
         - 遗传与发育Ⅱ: zhuanye/zymk/swl/ycyfy2/ycyfy2.md
-      - 基础医学类课程: 
+      - 基础医学类: 
         - 人体结构与功能学: 
           - zhuanye/zymk/jcyxl/rtjgygnx/index.md
         - 感染与免疫学: zhuanye/zymk/jcyxl/grymyx/grymyx.md
         - 疾病基础: zhuanye/zymk/jcyxl/jbjc/jbjc.md
         - 基础药理学: zhuanye/zymk/jcyxl/jcylx/jcylx.md
         - 神经科学: zhuanye/zymk/jcyxl/sjkx/sjkx.md
-      - 公共卫生与预防医学类课程:
+      - 公共卫生与预防医学类:
         - 实验动物与伦理学: zhuanye/zymk/ggwsyyfyxl/sydwyllx/sydwyllx.md
         - 医学科学素养Ⅱ: zhuanye/zymk/ggwsyyfyxl/yxkxsy2/yxkxsy2.md
         - 临床流行病与循证医学: zhuanye/zymk/ggwsyyfyxl/lclxbyxzyx/lclxbyxzyx.md
-      - 临床医学类课程:
+      - 临床医学类:
         - 重要疾病的临床与研究Ⅰ: zhuanye/zymk/lcyx/zyjbdlcyyj1/zyjbdlcyyj1.md
         - 重要疾病的临床与研究Ⅱ: zhuanye/zymk/lcyx/zyjbdlcyyj2/zyjbdlcyyj2.md
         - 重要疾病的临床与研究Ⅲ: zhuanye/zymk/lcyx/zyjbdlcyyj3/zyjbdlcyyj3.md
@@ -165,6 +166,7 @@ nav:
       - 飞跃: feiyue/feiyue.md
   - 后记:
     - 后记: postscript/postscript.md
+    - 测试: text.md
 
 #搜索功能
 plugins:
