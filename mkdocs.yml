@@ -66,10 +66,8 @@ theme:
 nav:
   - 首页:
     - index.md
-    - 制作组留言: homepage/about_us.md
   - 紫金港速通: 
     - freshman/index.md
-    - 紫金港速通: freshman/freshman.md
   - 通识类课程: 
     - tongshi/index.md
     - 军体类: 
@@ -151,16 +149,13 @@ nav:
       - 离散数学及其应用: zhuanye/gxxd/lssxjqyy/index.md
       - 计算机系统Ⅰ: zhuanye/gxxd/cs1/index.md
   - 本科生轮转: 
-    - 本科生轮转: rotation/rotation.md
+    - rotation/rotation.md
   - 政策收集 :
     - zhengce/index.md
-    - 政策: zhengce/zhengce.md
   - 飞跃专题:
-    - 飞跃手册:
-      - 飞跃: feiyue/feiyue.md
+    - fly/index.md
   - 后记:
-    - 后记: postscript/postscript.md
-    - 测试: text.md
+    - postscript/postscript.md
 
 #搜索功能
 plugins:
