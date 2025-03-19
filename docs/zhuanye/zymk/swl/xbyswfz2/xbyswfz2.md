@@ -57,6 +57,11 @@ comments: true
         width: 50px;
         white-space: nowrap;
     }
+    .table-container {
+        max-width: 100%;
+        overflow-x: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
     .resource-table {
         width: 100%;
         border-collapse: collapse;
@@ -146,61 +151,64 @@ comments: true
 
 <html>
 <body>
-    <table class="resource-table">
-        <thead>
-            <tr>
-                <th>资源名称</th>
-                <th>资源类型</th>
-                <th>Z-library</th>
-                <th>友链资源</th>
-                <th>本站资源</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>《Lehninger Principles of Biochemistry》 <br> David L.Nelson · Michael M. Cox</td>
-                <td>教材</td>
-                <td><a href="https://zh.101ml.store/dl/37457280/fbfbf1">点此跳转</a></td>
-                <td>无</td>
-                <td>无</td>
-            </tr>
-            <tr>
-                <td>《生物化学与分子生物学（第十版）》 <br> 人民卫生出版社</td>
-                <td>教材</td>
-                <td><a href="https://zh.101ml.store/dl/28422245/0ac8bc">点此跳转</a></td>
-                <td>无</td>
-                <td>无</td>
-            </tr>
-            <tr>
-                <td>课件</td>
-                <td>课件</td>
-                <td>无</td>
-                <td>无</td>
-                <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
-            </tr>
-            <tr>
-                <td>全程笔记 彭于哲</td>
-                <td>笔记</td>
-                <td>无</td>
-                <td>无</td>
-                <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
-            </tr>
-            <tr>
-                <td>2023-2024秋冬 期末 回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
-                <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
-            </tr>
-            <tr>
-                <td>2024-2025秋冬 期末 回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
-                <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table class="resource-table">
+            <thead>
+                <tr>
+                    <th>资源名称</th>
+                    <th>资源类型</th>
+                    <th>Z-library</th>
+                    <th>友链资源</th>
+                    <th>本站资源</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>《Lehninger Principles of Biochemistry》 <br> David L.Nelson · Michael M. Cox</td>
+                    <td>教材</td>
+                    <td><a href="https://zh.101ml.store/dl/37457280/fbfbf1">点此跳转</a></td>
+                    <td>无</td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <td>《生物化学与分子生物学（第十版）》 <br> 人民卫生出版社</td>
+                    <td>教材</td>
+                    <td><a href="https://zh.101ml.store/dl/28422245/0ac8bc">点此跳转</a></td>
+                    <td>无</td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <td>课件</td>
+                    <td>课件</td>
+                    <td>无</td>
+                    <td>无</td>
+                    <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
+                </tr>
+                <tr>
+                    <td>全程笔记 彭于哲</td>
+                    <td>笔记</td>
+                    <td>无</td>
+                    <td>无</td>
+                    <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
+                </tr>
+                <tr>
+                    <td>2023-2024秋冬 期末 回忆卷</td>
+                    <td>历年卷</td>
+                    <td>无</td>
+                    <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
+                    <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
+                </tr>
+                <tr>
+                    <td>2024-2025秋冬 期末 回忆卷</td>
+                    <td>历年卷</td>
+                    <td>无</td>
+                    <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
+                    <td><span class="link-divider"><a href="https://zh.101ml.store/dl/37457280/fbfbf1">查看</a><span class="divider">|</span><a href="https://zjuers.com">保存</a></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
 
