@@ -38,14 +38,32 @@ comments: true
 
 ## 学习资源
 
+<style>
+.link-divider {
+  display: inline-flex;
+  align-itenms: center;
+}
+
+.divider {
+  color: #ddd;
+  margin: 0 9px;
+  transition: all 0.3s;
+}
+
+.link-divider:hover .divider {
+  color: #666;
+  transform: rotate(90deg);
+}
+</style>
+
 | 资源名称 | 资源类型 | Z-library | 友链资源 | 本站资源 |
 |:---:|:---:|:---:|:---:|:---:|
 | 《Lehninger Principles of Biochemistry》 <br> David L.Nelson · Michael M. Cox | 教材 | [点此跳转](https://zh.101ml.store/dl/37457280/fbfbf1) | 无 | 无 |
 | 《生物化学与分子生物学（第十版）》 <br> 人民卫生出版社 | 教材 | [点此跳转](https://zh.101ml.store/dl/28422245/0ac8bc) | 无 | 无 |
-| 课件 | 课件 | 无 | 无 | [点此跳转](https://zjuers.com/) |
-| 全程笔记 彭于哲 | 笔记 | 无 | 无 | [查看](https://zjuers.com/) [下载](https://跳转到哪里呢.com) |
-| 2023-2024秋冬 期末 回忆卷 | 历年卷 | 无 | [CC98](https://www.cc98.org/topic/6087340) | [查看](细胞与生物分子II 2024-2025秋冬 期末考试.pdf) [下载](https://跳转到哪里呢.com) |
-| 2024-2025秋冬 期末 回忆卷 | 历年卷 | 无 | [CC98](https://www.cc98.org/topic/6087340) | [查看](细胞与生物分子II 2024-2025秋冬 期末考试.pdf) [下载](https://跳转到哪里呢.com) |
+| 课件 | 课件 | 无 | 无 | <span class="link-divider">[查看](https://zjuers.com/)<span class="divider">\|</span>[保存](https://114514.com)</span> |
+| 全程笔记 彭于哲 | 笔记 | 无 | 无 | <span class="link-divider">[查看](https://zjuers.com/)<span class="divider">\|</span>[保存](https://跳转到哪里呢.com)</span> |
+| 2023-2024秋冬 期末 回忆卷 | 历年卷 | 无 | [CC98](https://www.cc98.org/topic/6087340) | <span class="link-divider">[查看](细胞与生物分子II 2024-2025秋冬 期末考试.pdf)<span class="divider">\|</span>[保存](https://跳转到哪里呢.com)</span> |
+| 2024-2025秋冬 期末 回忆卷 | 历年卷 | 无 | [CC98](https://www.cc98.org/topic/6087340) | <span class="link-divider">[查看](细胞与生物分子II 2024-2025秋冬 期末考试.pdf)<span class="divider">\|</span>[保存](https://跳转到哪里呢.com)</span> |
 
 >*如果您发现这里的资源损坏或链接失效，请首先查看本站中的<a href="我也不知道指向哪里">常见问题解答</a>，倘若仍然无法解决问题，请联系网站管理员。*
 
