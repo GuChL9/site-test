@@ -1,0 +1,206 @@
+site_name: 基础医学学习网站
+site_url: https://GuChL9/github.io/site-test/
+site_description: 基础医学学习网站
+repo_name: ZJU-BMS
+repo_url: https://github.com/GuChL9/site-test
+edit_uri: tree/master/docs
+
+theme:
+  logo: images/logo_white.png
+  name: material
+  language: 'zh'
+#  logo: images/ZJUBMS.png
+  favicon: images/ZJUBMS.png
+
+  #主题切换
+  palette:
+
+    # 日间模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # 夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  
+
+
+  features:
+    - content.code.annotate
+    - content.action.edit
+    - navigation.instant
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+# 顶部导航栏
+    - navigation.tabs
+    - navigation.tracking
+# 返回顶部按钮
+    - navigation.top
+# 章节索引页面
+    - navigation.indexes
+# 静态导航栏
+#    - navigation.tabs.sticky
+# 自动展开左侧列表
+#    - navigation.sections
+# 激活导航路径后，痕迹导航将呈现在每个页面的标题上方，这可能会使用户在屏幕较小的设备上访问您的文档时更容易找到方向。将以下行添加到
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+    - content.code.annotate    
+    - content.action.edit
+# 评论
+  custom_dir: overrides
+
+
+#导航
+nav:
+  - 首页:
+    - index.md
+  - 紫金港速通: 
+    - freshman/index.md
+  - 通识类课程: 
+    - tongshi/index.md
+    - 军体类: 
+      - tongshi/jt/index.md
+      - 军事理论: tongshi/jt/jsll/jsll.md
+    - 思政类: 
+      - tongshi/sz/index.md
+    - 通识选修类: 
+      - tongshi/tsxx/index.md
+    - 通识必修类: 
+      - tongshi/tsbx/index.md
+      - 大物实验（丙）: tongshi/tsbx/dwsy(b)/dwsy(b).md
+      - 普通化学（H) : tongshi/tsbx/pthx(h)/index.md
+  - 专业类课程: 
+    - zhuanye/index.md
+    - 专业模块类: 
+      - zhuanye/zymk/index.md
+      - 生物类:
+        - 医学生命基础: zhuanye/zymk/swl/yxsmjc/yxsmjc.md
+        - 医学科学素养Ⅰ: zhuanye/zymk/swl/yxkxsy1/yxkxsy1.md
+        - 医学科学英语基础: zhuanye/zymk/swl/yxkxyyjc/yxkxyyjc.md
+        - 基础医学科学研究技能Ⅰ: zhuanye/zymk/swl/jcyxkxyjjn1/jcyxkxyjjn1.md
+        - 细胞与生物分子Ⅰ: zhuanye/zymk/swl/xbyswfz1/xbyswfz1.md
+        - 细胞与生物分子Ⅱ: zhuanye/zymk/swl/xbyswfz2/xbyswfz2.md
+        - 遗传与发育Ⅰ: zhuanye/zymk/swl/ycyfy1/ycyfy1.md
+        - 遗传与发育Ⅱ: zhuanye/zymk/swl/ycyfy2/ycyfy2.md
+      - 基础医学类: 
+        - 人体结构与功能学: 
+          - zhuanye/zymk/jcyxl/rtjgygnx/index.md
+        - 感染与免疫学: zhuanye/zymk/jcyxl/grymyx/grymyx.md
+        - 疾病基础: zhuanye/zymk/jcyxl/jbjc/jbjc.md
+        - 基础药理学: zhuanye/zymk/jcyxl/jcylx/jcylx.md
+        - 神经科学: zhuanye/zymk/jcyxl/sjkx/sjkx.md
+      - 公共卫生与预防医学类:
+        - 实验动物与伦理学: zhuanye/zymk/ggwsyyfyxl/sydwyllx/sydwyllx.md
+        - 医学科学素养Ⅱ: zhuanye/zymk/ggwsyyfyxl/yxkxsy2/yxkxsy2.md
+        - 临床流行病与循证医学: zhuanye/zymk/ggwsyyfyxl/lclxbyxzyx/lclxbyxzyx.md
+      - 临床医学类:
+        - 重要疾病的临床与研究Ⅰ: zhuanye/zymk/lcyx/zyjbdlcyyj1/zyjbdlcyyj1.md
+        - 重要疾病的临床与研究Ⅱ: zhuanye/zymk/lcyx/zyjbdlcyyj2/zyjbdlcyyj2.md
+        - 重要疾病的临床与研究Ⅲ: zhuanye/zymk/lcyx/zyjbdlcyyj3/zyjbdlcyyj3.md
+      - 交叉性课程:
+        - 医学生物物理学: 
+          - zhuanye/zymk/jcx/yxswwlx/index.md
+        - 脑与脑机融合: zhuanye/zymk/jcx/nynjrh/nynjrh.md
+        - 医学大数据与应用: zhuanye/zymk/jcx/yxdsjyyy/yxdsjyyy.md
+    - 专业方向课程:
+      - zhuanye/zyfx/index.md
+      - 分子肿瘤方向:
+        - 肿瘤生物学: 
+          - zhuanye/zyfx/fzzl/肿瘤生物学/index.md
+        - 肿瘤研究策略与应用: 
+          - zhuanye/zyfx/fzzl/肿瘤研究策略与应用/index.md
+        - 临床肿瘤学概论: 
+          - zhuanye/zyfx/fzzl/临床肿瘤学概论/index.md
+      - 感染与免疫学:
+        - 微生物学与免疫学前沿技术: zhuanye/zyfx/grymyx/wswxymyxqyjs/index.md
+        - 重要传染病的防治基础: zhuanye/zyfx/grymyx/zycrbdfzjc/index.md
+        - 临床免疫学: zhuanye/zyfx/grymyx/lcmyx/index.md
+    - 专业选修类: 
+      - zhuanye/zyxx/index.md
+      - 物理化学: zhuanye/zyxx/wlhx/wlhx.md
+      - 新药研发: zhuanye/zyxx/xyyf.md
+      - 法理学: zhuanye/zyxx/flx.md
+      - 管理学: zhuanye/zyxx/glx.md
+      - 卫生学: zhuanye/zyxx/wsx.md
+      - 概率论与数理统计: zhuanye/zyxx/gllysltj/index.md
+    - 实践教学环节: 
+      - zhuanye/sjjx/index.md
+      - 基础医学科学研究技能Ⅱ: zhuanye/sjjx/jcyxkxyjjn2/index.md
+      - 基础医学科研实践: zhuanye/sjjx/jcyxkysj/index.md
+      - 基础医学教育见习: zhuanye/sjjx/jcyxjyjx/index.md
+      - 临床实习: zhuanye/sjjx/lcsx/index.md
+    - 个性修读类: 
+      - zhuanye/gxxd/index.md
+      - C程序设计基础及实验: zhuanye/gxxd/c4/index.md
+      - 面向对象程序设计: zhuanye/gxxd/oop/index.md
+      - 数据结构基础: zhuanye/gxxd/fds/index.md
+      - 离散数学及其应用: zhuanye/gxxd/lssxjqyy/index.md
+      - 计算机系统Ⅰ: zhuanye/gxxd/cs1/index.md
+  - 本科生轮转: 
+    - rotation/rotation.md
+  - 政策收集 :
+    - zhengce/index.md
+  - 飞跃专题:
+    - fly/index.md
+  - 后记:
+    - postscript/postscript.md
+  - 测试页面:
+    - test/index.md
+
+#搜索功能
+plugins:
+  - search
+
+#这个地方是页面最下方放友情链接的，需要一个图标icon和一个链接link
+extra:
+  social:
+    - icon: material/web-check
+      link: https://bms.zju.edu.cn/
+
+#这个是版权横幅
+copyright: Copyright &copy; 2024-2025 基础医学飞跃手册编委会
+
+markdown_extensions:
+#  - toc:
+#      permalink: true
+#      toc_depth: 4
+#  - meta
+#  - def_list
+#  - attr_list
+#  - md_in_html
+#  - sane_lists
+#  - admonition
+#  - pymdownx.keys
+#  - pymdownx.mark
+#  - pymdownx.tilde
+#  - pymdownx.critic
+#  - pymdownx.details
+#  - pymdownx.snippets
+#  - pymdownx.magiclink
+#  - pymdownx.superfences
+#  - pymdownx.inlinehilite
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
+# 选项卡功能
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
